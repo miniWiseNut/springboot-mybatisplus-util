@@ -63,9 +63,9 @@ public class Generator {
     private static DbType dbType = DbType.MYSQL;
     //数据库配置四要素
     private static String driverName = "com.mysql.cj.jdbc.Driver";
-    private static String url = "jdbc:mysql://121.204.181.47:3306/nflg?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
+    private static String url = "jdbc:mysql://127.0.0.1:3306/nflg?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
     private static String username = "root";
-    private static String password = "Syfjc021";
+    private static String password = "123456";
 
 
     public static void main(String[] args) {
